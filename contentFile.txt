@@ -1,4 +1,35 @@
 Q1:- What is CSS?
-Ans:- CSS is the language we use to style an HTML document.
-        CSS describes how HTML elements should be displayed.
+Ans:- 
+1. CSS is the language we use to style an HTML document.
+2. CSS describes how HTML elements should be displayed.
+3. CSS stands for Cascading Style Sheets.
+
+Q2:- What is CSS syntax?
+Ans:-
+A css rule consists of a selector and a declaration block.
+
+h1 {color:blue;}
+
+h1-selector
+
+{color:blue;} -> declaration
+
+color -> property
+
+blue -> Value
+
+Q3:- What is Selectors in Css?
+
+Ans:- A css selector selects the HTML elements you want to style.
+
+We can devide css selectors into five categories:-------->
+
+1. Simple selectors(select elements based on name, id , class)
+2. Combinator selectors (select elements based on a certain state)
+3. Pseudo-class selectors (select elements based on a certain state)
+4. Pseudo-elements selectors (select and style a part of an element)
+5. Attribute selectors (select elements based on an attribute or attribute value)
+
+ 
+
 
