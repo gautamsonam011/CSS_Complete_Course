@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* This is a content of box */ 
+.dic p{
+    margin-top: 40%;
+    color:blue;
+
+}
+
+/* CSS Colors */
+
+/* Colors */
+#colors{
+    color: darkorange;
+    background-color: darkslateblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* RGB  (Red Green Blue) */ 
+/* Background color */
+.colorbody{
+    background-color: rgb(60, 179, 113);
+}
+
+/* RGBA (Red Green Blue Alpha) */
+#box1{
+    width:200px;
+    height: 200px;
+    background-color: rgba(255, 99, 71, 0.9);
+}
+
+
+/* HEX ( Hexadecimal) */
+#box1 p{
+    text-align: center;
+    color:#3cb371;
+    /* HSL ( Hue Saturation Lightness) */
+    background-color: hsl(0, 100%, 75%);
+}
+
+/* background image */
+/* Height and Width */
+#box2{
+    width:500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment:fixed;  /* scroll*/
+    background-image: url("Images/sonam1.jpg");
+}
+
+/* #box2{
+    width:500px;
+    height: 500px;
+    background-image: #ffffff url("Images/sonam1.jpg") no-repeat right top;  This property Background Shorthand
+} */
+
+.border{
+    border-style:dotted ;
+}
+
+/* margin */
+
+#marg{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+/* margin collapse */
+
+.col{
+    margin: 20px 0 0 0;
+}
+
+/* padding:- generate space around elements */
+
+.padd{
+    text-align: center;
+    color: #84f6b7;
+    background-color: gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top:10px ;
+    border-radius: 50%;
+    border: 5px solid yellowgreen;
+
+    /* padding: 20px 20px 20px 20px;  we can use this */
+}
+
+.boxsize{
+    width:400px;
+    padding: 20px;
+    color: rgb(252, 198, 159);
+    box-sizing: border-box;
+    background-color: #3cb371;
+    border-radius: 40px;
+    border: 5px dotted red;
+}
+
+/* The CSS Box Model */
+
+.boxModel{
+    width:300px;
+    border: 15px solid green;
+    padding: 20px;
+    margin: 50px;
+}
+
+/* CSS Outline */
+.outline{
+    width:300px;
+    border: 5px dotted red;
+    outline-offset: 15px ;
+    outline-color: #3cb371;
+    outline-style: groove;
+    outline-width: 6px;
+    outline: invert;
+}
+
+/* CSS Text */
+.text{
+    color: antiquewhite;
+    background-color: #3cb371;
+    text-align: center;
+}
+.text #a{
+    width:300px;
+    border: 5px dotted red;
+    text-align: justify;
+}
+.text #b{
+    width:300px;
+    border: 5px dotted red;
+    text-align-last: right;
+}
+.text #c{
+    width:300px;
+    border: 5px dotted red;
+    text-align-last:center;
+}
+.text #d{
+    width:300px;
+    border: 5px dotted red;
+    text-align-last:justify
+}
+
+.deco{
+    /* width:400px; */
+    color: crimson;
+    background-color: black;
+    border: 5px dotted red;
+    text-align-last:justify;
+    margin-bottom: 20%;
+    padding: 20px;
+    font-size: small;
+}
+.deco h1{
+    white-space: nowrap;
+    word-spacing: -5px;
+    text-indent: 50px;
+    text-shadow: 2px 2px red;
+    text-transform: uppercase;
+    text-decoration: overline;
+    text-decoration-color: #3cb371;
+    text-decoration-thickness: auto;
+}
+.deco h2{
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    text-decoration: line-through;
+    text-decoration-color: blue;
+    text-decoration-thickness: 5px;
+}
+.deco h3{
+    letter-spacing: -2px;
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-decoration-color: cornflowerblue;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 20%;
+}
+.deco h4{
+    line-height: 0.8;
+    text-transform: none;
+    text-decoration: overline underline;
+    text-decoration-color: chartreuse;
+    text-decoration-style: wavy;
+}
+
+

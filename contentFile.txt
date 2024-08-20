@@ -30,6 +30,14 @@ We can devide css selectors into five categories:-------->
 4. Pseudo-elements selectors (select and style a part of an element)
 5. Attribute selectors (select elements based on an attribute or attribute value)
 
+Three ways to insert CSS:-------->
+
+There are three ways of inserting a style sheet:-
+
+1:- External CSS
+2:- Internal CSS
+3:- Inline CSS
+
  
 
 
