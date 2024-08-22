@@ -197,4 +197,76 @@
     text-decoration-style: wavy;
 }
 
+/* font */
 
+.font{
+    width:auto;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+/* font family */
+
+.font h1{
+    color:#3cb371;
+    font-family: serif;
+}
+/* font size */
+.font h2{
+    color:chocolate;
+    font-size: medium;
+    font-family: sans-serif;
+}
+/* font web safe */
+
+.font h3{
+    color:coral;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* font fallbacks */
+
+.font h4{
+    color:cyan;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+.font h5{
+    color:darkgreen;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-style: italic;
+}
+
+.font h6{
+    color:beige;
+    font-family:  Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+/* Links */
+
+.link a{
+    width:200px;
+
+}
+
+.link a:link{
+    text-decoration: none;
+}
+
+.link a:visited{
+    color: #3cb371;
+    text-decoration: dotted;
+}
+
+.link a:hover{
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+.link a:active{
+    text-decoration: double;
+}
