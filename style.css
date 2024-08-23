@@ -270,3 +270,22 @@
 .link a:active{
     text-decoration: double;
 }
+
+
+/* lists */
+#list{
+    color:#3cb371;
+    text-align: center;
+}
+.lists ul .unorder1{
+    list-style-type: circle;
+} 
+.lists ul .unorder2{
+    list-style-type: square;
+}
+.lists ol .order1{
+    list-style-type: upper-roman;
+}
+.lists ol .order2{
+    list-style-type: lower-alpha;
+}

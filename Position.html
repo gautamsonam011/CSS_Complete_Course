@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position, Z-index and Overflow CSS</title>
+    <style>
+        .pos1{
+            position: static;
+            border:3px solid #73AD;
+        }
+        .pos2{
+            position: relative;
+            border: 3px dotted #73AD21;
+        }
+        .pos3{
+            position: fixed;
+            border: 3px solid rosybrown;
+        }
+        .pos4{
+            position: absolute;
+            z-index: -1;
+            border: 3px solid brown;
+        }
+        .pos5{
+            position: sticky;
+            border: 3px dotted hotpink;
+        }
+        .visi{
+            width:100px;
+            height: 50px;
+            background-color: aqua;
+            overflow: visible;
+        }
+        .hid{
+            margin-top: 10%;
+            width:100px;
+            height: 50px;
+            background-color: rgb(251, 80, 197);
+            overflow: hidden;  
+        }
+        .scroll{
+            margin-top: 10%;
+            width:100px;
+            height: 100px;
+            background-color: rgb(252, 114, 114);
+            overflow: scroll; 
+        }
+    </style>
+</head>
+<body>
+    <div class="pos1">
+        <p>The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).</p>
+    </div>
+    <div class="pos2">
+        <p>The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).</p>
+    </div>
+    <div class="pos3">
+        <p>The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).</p>
+    </div>
+    <div class="pos4">
+        <p>The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).</p>
+    </div>
+    <div class="pos5">
+        <p>The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).</p>
+    </div>
+
+    <!-- overflow visible -->
+    <div class="visi">
+        <p>
+            By default, the overflow is visible, meaning that it is not clipped and it renders outside the element's box.
+        </p>
+    </div>
+    <!-- overflow hidden -->
+    <div class="hid">
+        <p>
+            By default, the overflow is visible, meaning that it is not clipped and it renders outside the element's box.
+        </p>
+    </div>
+    <!-- overflow scroll -->
+    <div class="scroll">
+        <p>
+            By default, the overflow is visible, meaning that it is not clipped and it renders outside the element's box.
+        </p>
+    </div>
+    <!-- overflow-x:hidden -->
+    <!-- overflow-y:scroll -->
+</body>
+</html>

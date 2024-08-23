@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float and Inline-block</title>
+    <style>
+        .inline{
+            width:500px;
+            height: auto;
+        }
+        .in-block{
+            width:500px;
+            height: auto;
+        }
+        .block{
+            width:500px;
+            height: auto;
+        }
+        .inline .in{
+            display: inline;
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            border: 1px solid blue;
+            background-color: chartreuse;        }
+        
+        .in-block .block{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            border: 1px solid blue;
+            background-color: rgb(14, 111, 146); 
+        }
+        .block .b{
+            display: block;
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            border: 1px solid blue;
+            background-color: rgb(251, 74, 136); 
+        }
+    </style>
+</head>
+<body>
+    <h3>The float property is used for positioning and formatting content.</h3>
+    <ul>
+        <li>float:left</li>
+        <li>float:right</li>
+        <li>float:none</li>
+        <li>float:inherit</li>
+    </ul>
+    <div>
+        <p>
+            <img src="Images/sonam1.jpg" style="width:200px;height:200px; margin-left:15px;float:left;">
+            In this example, the image will float to the right in the paragraph, and the text in the paragraph will wrap around the image.
+        </p>
+    </div>
+    <div>
+        <p>
+            <img src="Images/sonam1.jpg" style="width:200px;height:200px; margin-left:15px;float:right;">
+            In this example, the image will float to the right in the paragraph, and the text in the paragraph will wrap around the image.
+        </p>
+    </div>
+    <div>
+        <p>
+            <img src="Images/sonam1.jpg" style="width:200px;height:200px; margin-left:15px;float:none;">
+            In this example, the image will float to the right in the paragraph, and the text in the paragraph will wrap around the image.
+        </p>
+    </div>
+    <div>
+        <p>
+            <img src="Images/sonam1.jpg" style="width:200px;height:200px; margin-left:15px;float:inherit;">
+            In this example, the image will float to the right in the paragraph, and the text in the paragraph will wrap around the image.
+        </p>
+    </div>
+    <!-- clear left and both -->
+    <div>
+        <p style="padding:10px; border: 3px solid red; clear:left;">
+            However, since div1 floats to the left, the text in div2 flows around div1
+        </p>
+    </div>
+    <div class="inline">
+        <h2>display:inline;</h2>
+        <p>Lorem ipsum dolor sit amet, <span class="in">consectetur</span> adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. Aliquam venenatis gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet.</p>
+    </div>
+    <div class="in-block">
+        <h2>display:inline;</h2>
+        <p>Lorem ipsum dolor sit amet, <span class="block">consectetur</span> adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. Aliquam venenatis gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet.</p>
+    </div>
+    <div class="block">
+        <h2>display:inline;</h2>
+        <p>Lorem ipsum dolor sit amet, <span class="b">consectetur</span> adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. Aliquam venenatis gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet.</p>
+    </div>
+
+    <!-- A combinator is something that explains the relationship between the selectors. -->
+    <!-- There are four different combinators in CSS -->
+    <!-- descendant selector (space)
+    child selector (>)
+    adjacent sibling slector (+)
+    general sibling selector (~) -->
+</body>
+</html>
