@@ -38,6 +38,35 @@ There are three ways of inserting a style sheet:-
 2:- Internal CSS
 3:- Inline CSS
 
+Q4:- What is Combinators?
+
+Ans:- A css selector can contain more than one simple selector. Between the simple selectors, we can include a Combinator.
+
+There are four different Combinators in css.
+
+* descendant selector(space)
+    div p{
+        color: yellow;
+    }
+
+* child selector (>)
+    div > p{
+        font-size: large;
+    }
+
+* adjacent sibling selector (+)
+    div + p{
+        color:red;
+    }
+
+* gerneral sibling selector (~)
+
+    div ~ p{
+        text-align:center;
+    }
+
+
+
  
 
 

@@ -289,3 +289,70 @@
 .lists ol .order2{
     list-style-type: lower-alpha;
 }
+
+/* ---------- Navbar --------- */
+
+.page1{
+    width:500px;
+    height: 500px;
+    background-color: rgb(55, 95, 86);
+}
+
+.page1 nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:200px;
+    background-color: coral;
+}
+.page1 nav ul li a{
+    display: block;
+    color: antiquewhite;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.page1 nav ul li a:active{
+    color: white;
+    background-color: rgb(114, 79, 149);
+}
+
+.page1 nav ul li a:hover:not(.active){
+    background-color: #84f6b7;
+    color: blue;
+}
+
+.page2{
+    width:500px;
+    height: 500px;
+    background-color: rgb(142, 44, 98);
+}
+
+
+.page2 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0a737e;
+  }
+  
+.page2 nav ul li {
+    float: left;
+  }
+  
+.page2 nav ul li a {
+    display: block;
+    color: rgb(73, 166, 22);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.page2 nav ul li a:hover:not(.active) {
+    background-color: #542798;
+  }
+  
+.active {
+    background-color: #fe069f;
+  }
