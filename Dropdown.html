@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropDown</title>
+    <style>
+        .body{
+            background-color: rgb(151, 182, 182);
+        }
+        #body{
+            background-color: darkcyan !important;
+        }
+        .dropbtn{
+            padding: 10px;
+            font-size: large;
+            border: none;
+            cursor: pointer;
+            font-family: 'Courier New', Courier, monospace;
+            color: rgb(247, 146, 73);
+            background-color: rgb(7, 114, 93);
+        }
+        .drodown{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: darkgreen;
+            min-width: 160px;
+            z-index: 1;
+            box-shadow: 0px 8px 16px 0px rgb(138, 176, 35);
+        }
+        .dropdown-content a{
+            color: rgb(95, 240, 211);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover{background-color: crimson;}
+
+        .drodown:hover .dropdown-content{
+            display: block;
+        }
+        .drodown:hover .dropbtn{
+            background-color: darkcyan;
+        }
+
+        a[target="_blank"]{
+            color: rgb(12, 67, 70);
+            background-color: hotpink;
+        }
+
+        .counter{
+            counter-reset: section;
+        }
+        h2::before{
+            counter-increment: section;
+            content: "Section" counter(section) ":" ;
+        }
+
+        .box #a{
+            position: absolute;
+            left:50px;
+            width: calc(100%-100px);
+            border: 1px dotted red;
+            background-color: yellow;
+            padding: 5px;
+        }
+        .box #b{
+            background-color: aquamarine;
+            height: 100px;
+            width:max(50%, 300px);
+        }
+        .box #c{
+            background-color: rgb(25, 212, 149);
+            height: 100px;
+            width:min(50%, 300px);
+        }
+    </style>
+</head>
+<body id="body">
+    <h2>Create a hoverable dropdown with css.</h2>
+    <div class="drodown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+            <a href="#">Python</a>
+            <a href="#">Django</a>
+            <a href="#">HTML</a>
+            <a href="#">CSS</a>
+            <a href="#">Javascripts</a>
+        </div>
+    </div>
+
+    <div>
+        <h2>Attribute Selector</h2>
+        <a href="navbar.html" target="_blank">Navbar</a>
+    </div>
+
+    <div style="width:500px; height:500px;" class="counter">
+        <h2>Python</h2>
+        <h2>Django</h2>
+        <h2>HTML</h2>
+        <h2>CSS</h2>
+        <h2>JavaScripts</h2>
+        <h2>ReactJs</h2>
+    </div>
+    <div>
+        <h2>CSS has several different units for expressing a length.</h2>
+    </div>
+
+    <!-- CSS Math Functions -->
+    <div class="box">
+        <h2>CSS Math Funtions calc(), max() and min().</h2>
+        <div id="a">
+            calc()....
+        </div>
+        <div id="b">
+            max().....
+        </div>
+        <div id="c">
+            min()....
+        </div>
+    </div>
+</body>
+</html>
