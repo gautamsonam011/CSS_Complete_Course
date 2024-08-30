@@ -356,3 +356,212 @@
   .active {
     background-color: #fe069f;
   }
+
+  /* --------- CSS Rounded Corners -------- */
+
+  .rounded1{
+    width:200px;
+    height: 200px;
+    color: #fe069f;
+    text-align: center;
+    padding: 20px;
+    background-color: #0a737e;
+    border-radius: 20px;
+    margin-left: 500px;
+  }
+  .rounded2{
+    width:200px;
+    height: 200px;
+    color: #f8a136;
+    text-align: center;
+    padding: 20px;
+    background-color: #149770;
+    border-radius: 50px 15px 30px 5px;
+    margin-top: 100px;
+    margin-left: 500px;
+  }
+
+/* Advanced CSS */
+
+.border-img1{
+    width:600px;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(Images/sonam1.jpg) 30 round;
+    margin-top:50px;
+    margin-left: 50px;
+}
+
+.border-img2{
+    width:600px;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(Images/sonam1.jpg) 30 stretch;
+    margin-top:50px;
+    margin-left: 50px;
+}
+
+.backg{
+    margin-top: 50px;
+    width: 600px;
+    height: 200px;
+    color: #fe069f;
+    text-align: center;
+    padding: 20px;
+    margin-left: 50px;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-image: url(Images/sonam1.jpg), url(Images/bg.jpeg);
+}
+
+.bg{
+    border: 2px double rgba(255, 99, 71, 0.9);
+    background: url(Images/bg.jpeg);
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+    padding: 15px;
+    margin-top: 50px;
+    width: 600px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.rgba{
+    padding: 15px;
+    margin-top: 50px;
+    width: 600px;
+    height: 200px;
+    margin-left: 50px;
+    color: #2feda7;
+    text-align: center;
+    background-color: rgba(255, 99, 71, 0.9);
+}
+.hsl{
+    padding: 15px;
+    margin-top: 50px;
+    width: 600px;
+    height: 200px;
+    margin-left: 50px;
+    color: #2feda7;
+    text-align: center;
+    background-color: hsl(0, 100%, 75%);  
+}
+
+.hsla{
+    padding: 15px;
+    margin-top: 50px;
+    width: 600px;
+    height: 200px;
+    margin-left: 50px;
+    color: #2feda7;
+    text-align: center;
+    background-color: hsla(0, 100%, 50%, 0.3);
+}
+
+.opcity{
+    padding: 15px;
+    margin-top: 50px;
+    width: 600px;
+    height: 200px;
+    margin-left: 50px;
+    color: #b9a013;
+    text-align: center;
+    background-color: rgb(60, 179, 113);
+    opacity: 0.6;
+}
+
+.trans{
+    padding: 15px;
+    margin-top: 50px;
+    width: 600px;
+    height: 200px;
+    margin-left: 50px;
+    color: #4bfcaf;
+    text-align: center;
+    background-image: url(Images/bg.jpeg);
+    background-color: transparent;
+}
+
+.curcol{
+    padding: 15px;
+    margin-top: 50px;
+    width: 600px;
+    height: 100px;
+    margin-left: 50px;
+    color: #4bfcaf;
+    text-align: center;
+    border: 10px solid currentColor;
+    padding: 15px;
+}
+.inh{
+    padding: 15px;
+    margin-top: 50px;
+    width: 600px;
+    height: 100px;
+    margin-left: 50px;
+    color: #4bfcaf;
+    text-align: center;
+    border: 10px solid red;
+    padding: 15px;
+}
+.inh span{
+    border: inherit;
+}
+
+/* -------CSS Gradients --------- */
+
+.bilig{
+    padding: 15px;
+    margin-top: 50px;
+    width: 600px;
+    height: 100px;
+    margin-left: 50px;
+    color: #4bfcaf;
+    text-align: center;
+    padding: 15px;
+    background-image: linear-gradient(red, yellowgreen, blue);
+}
+
+.ragra{
+    padding: 15px;
+    margin-top: 50px;
+    width: 600px;
+    height: 100px;
+    margin-left: 50px;
+    color: #4bfcaf;
+    text-align: center;
+    padding: 15px;
+    background-image: radial-gradient(red, pink, green);
+}
+
+.rdient{
+    padding: 15px;
+    margin-top: 50px;
+    width: 600px;
+    height: 100px;
+    margin-left: 50px;
+    color: #4bfcaf;
+    text-align: center;
+    padding: 15px;
+    background-image: radial-gradient(red 5%, yellow 15%, green 60%);}
+
+#grad{
+    padding: 15px;
+    margin-top: 50px;
+    width: 600px;
+    height: 100px;
+    margin-left: 50px;
+    color: #4bfcaf;
+    text-align: center;
+    padding: 15px;
+    background-image: conic-gradient(rgb(59, 238, 205), rgb(254, 254, 103), rgb(81, 250, 81), rgb(246, 80, 51), black);
+}
+
+#grad1 {
+    background-image: conic-gradient(rgb(103, 3, 3), rgb(197, 197, 11), rgb(59, 120, 59), rgb(54, 54, 122), rgb(105, 71, 71));
+    border-radius: 50%;
+    margin-top: 50px;
+    width: 600px;
+    height: 100px;
+    margin-left: 50px;
+  }
